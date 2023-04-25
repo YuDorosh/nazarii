@@ -1,0 +1,1279 @@
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('../PhotosProject/futura/FuturaBT-Medium.woff2') format('woff2'),
+        url('../PhotosProject/futura/FuturaBT-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: url('../futura/FuturaBT-Heavy.woff2') format('woff2'),
+        url('../futura/FuturaBT-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Futura BdCn BT';
+    src: url('../futura/FuturaBT-BoldCondensed.woff2') format('woff2'),
+        url('../futura/FuturaBT-BoldCondensed.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+body{
+width: 100%;
+}
+header{
+    margin: 0%;
+}
+h1{
+    color: #F3E8DC;
+}
+h2{
+    color: #F3E8DC;
+}
+.URL_Box{
+    height: 100%;
+    display: none;
+}
+.URL{
+    font-size: 14px;
+    font-family: 'Futura Md BT';
+    color: white;
+    display: none;
+}
+.Flex_Bttn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Ul_1{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 77px;  
+ height: 250px;
+ margin-top: 0%;
+ width: 87%;
+ margin-left: 15%;
+font-size: 18px;
+color: #F3E8DC;
+font-family: Futura Md BT;
+}
+.Burg_Header{
+    display: none;
+    font-family: 'Futura Md BT';
+    font-weight: 900;
+    color: #202020;
+}
+.Burg_List{
+    display: none;
+    font-family: 'Futura Md BT';
+}
+.First_Text{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 74px;
+    font-family: Futura Md BT;
+}
+
+.Second_Text{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 90px;
+    font-family: Futura Md BT;
+    
+}
+.First_Block{
+    display: flex;
+    height: 1451px;
+    background-color: black;
+    justify-content: center;
+}
+.Logo_Image{
+    background-image: url(Fimage.png);
+    height: 100%;
+    width: 65.5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.A_menu{
+    text-decoration: none;
+    color: #F3E8DC;
+}
+.Second_Block{
+    display: flex;
+    height: 1451px;
+    background-color: black;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+}
+.FT_Block{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #F3E8DC;
+}
+.Price_Block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 77px;
+    color: #F3E8DC;
+    font-family: Futura Md BT;
+    margin-top: 79px;
+}
+.Info_Block{
+    display: flex;
+    width: 90px;
+    flex-direction: column;
+    gap: 34px;
+    width: 180px;
+    font-size: 48px;
+}
+.I_p{
+    font-size: 18px;
+}
+.Book_Button{
+    height: 103px;
+    width: 486px;
+    background-color: #F3E8DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Futura Md BT;
+    color: black;
+    margin-top: 112px;
+}
+.A_href{
+    text-decoration: none;
+    color: black;
+}
+.Bttn_Content{
+    font-size: 48px;
+}
+.Terms{
+    font-size: 24px;
+    color: #F3E8DC;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F3E8DC;
+    margin-top: 58px;
+    font-family: 'Futura Hv BT';
+}
+.A_terms{
+    color: #F3E8DC;
+    font-family: 'Futura Md BT';
+    font-weight: 700;
+}
+.Contact{
+    font-family: 'Futura Md BT';
+    font-size: 18px; 
+    color: #F3E8DC;
+    margin-top: 92px;
+}
+.List_el{
+    font-size: 48px;
+    font-family: Futura Md BT;
+    font-weight: bold;
+}
+.List_el1{
+    font-size: 48px;
+    font-family: Futura Md BT;
+}
+.Ul_1_1{
+    display: none;
+}
+.F_Box{
+    display: flex;
+    width: 100%;
+    height: 45px;
+}
+.F_2_Box{
+    display: flex;
+    width: 100%;
+    height: 45px;
+}
+.Container{
+    width: 1150px;
+    height: 1150px;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 138px;
+}
+.Price_list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1616px;
+    background-color: #F3E8DC;
+}
+.Price_Box{
+    display: flex;
+    flex-direction: column;
+    gap: 110px;   
+    width: 1150px;
+    font-family: Futura Md BT;
+}
+.Price_H{
+    margin-bottom: 16px;
+    color: black;
+    font-family: Futura Md BT;
+    font-size: 48px;
+    text-decoration: underline;
+
+}
+
+/* ------------------------------------------ */
+.Gallery{
+    width: 100%;
+    height: 1984px;
+    background-color: #202020;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+.First_Fotos_Block{
+    display: flex;
+    gap: 21px;
+    width: 1608px;
+    height: 731px;
+}
+.Second_Fotos_Block{
+    display: flex;
+    gap: 21px;
+    width: 1608px;
+    height: 731px;
+    margin-top: 20px;
+}
+.Gallery_Cont{
+    width: 1608px;
+    height: 1540px;
+}
+.Gallery_H{
+    font-size: 64px;
+    font-family: Futura Md BT;
+    margin-left: 34px;
+    margin-bottom: 108px;
+    margin-top: 108px;
+    text-decoration: underline;
+}
+.Foto_1{
+width: 516px;
+height: 731px;
+background-color: white;
+/* background-image: url(../PhotosProject/Images/);
+background-repeat: no-repeat;
+background-size: cover; */
+}.Foto_2{
+    width: 516px;
+    height: 731px;
+background-color: white;
+/* background-image: url(../PhotosProject/Images/);
+background-repeat: no-repeat;
+background-size: cover; */
+}.Foto_3{
+    width: 516px;
+height: 731px;
+background-color: white;
+/* background-image: url(../PhotosProject/Images/);
+background-repeat: no-repeat;
+background-size: cover; */
+}.Foto_4{
+    width: 516px;
+    height: 731px;
+background-color: white;
+/* background-image: url(../PhotosProject/Images/);
+background-repeat: no-repeat;
+background-size: cover; */
+}.Foto_5{
+    width: 516px;
+    height: 731px;
+background-color: white;
+/* background-image: url(../PhotosProject/Images/);
+background-repeat: no-repeat;
+background-size: cover; */
+}.Foto_6{
+    width: 516px;
+    height: 731px;
+    background-color: white;
+    /* background-image: url(../PhotosProject/Images/);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+/* ------------------------------------------ */
+.Input{
+    width: 100%;
+    height: 85px;
+    background-color: white;
+    margin-bottom: 53px;
+    border: solid #202020;
+    font-family: Futura Md BT;
+    font-size: 30px;
+    padding-left: 34px;
+}
+.Input::placeholder{
+    font-family: Futura Md BT;
+    font-size: 34px;
+    color: black;
+    margin-left: 36px;
+}
+.Questions{
+    height: 1403px;
+    background-color: #F3E8DC;
+    display: flex;
+    justify-content: center;
+}
+.Questions_Cont{
+    width: 1082px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 90px;
+    
+}
+.TXT{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.F_Text_Area{
+    width: 1082px;
+    height: 470px;
+    border: solid #202020;
+    padding-top: 20px;
+    padding-left: 24px;
+    font-family: Futura Md BT;
+    font-size: 34px;
+}
+.Want_ask{
+    font-family: Futura Md BT;
+    font-size: 71px;
+    text-decoration: underline;
+}
+.Button_send{
+    width: 357px;
+    height: 86px;
+    background-color: #202020;
+    color: #F3E8DC;
+    border-radius: 43px;
+    font-size: 34px;
+    font-family: Futura Md BT;
+}
+.Btn_send{
+    width: 357px;
+    height: 86px;
+    background-color: #202020;
+    color: #F3E8DC;
+    border-radius: 43px;
+}
+
+footer{
+    width: 100%;
+    height: 183px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 526px;
+    background-color: #202020;
+    color: #F3E8DC;
+    font-family: Futura Md BT;
+    font-size: 32px;
+}
+.First_Footer_Block{
+    display: flex;
+    gap: 70px;
+}
+.Footer_text{
+    color: #F3E8DC;
+    font-family: Futura Md BT;
+}
+.Email_block{
+    display: flex;
+}
+.Footer_email_dec{
+    text-decoration: underline;
+}
+.Burg_Head{
+    display: none;
+}
+/* ----------------------   ANIMATIONS   ----------------------- */
+.List{
+    background-color: none;
+    width: 100px;
+    height: 39px;
+    border-radius: 30px;
+    color: #F3E8DC;
+    transition: 1s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.List_Span{
+    display: contents;
+    background-color: none;
+    width: 100px;
+    height: 39px;
+    border-radius: 30px;
+    color: #F3E8DC;
+    transition: 1s;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.List:hover{
+    color: #202020;
+    background-color: #F3E8DC;
+}
+.Bttn_Content{
+    transition: 0.5s;
+    cursor: pointer;
+}
+.Bttn_Content:hover{
+    transform: translateX(5px);
+}
+.A_menu:hover{
+    color: #202020;
+}
+
+
+@media screen and (max-width: 2400px) {
+    .First_Text{
+          font-size: 60px;
+        }
+        .Info_Block{
+            font-size: 44px;
+        }
+        .Info_Block{
+            display: flex;
+            width: 90px;
+            flex-direction: column;
+            gap: 34px;
+            width: 140px;
+            font-size: 48px;
+        }
+        .Contact{
+            font-size: 14px;
+        }
+        .Input{
+            font-size: 25px;
+            height: 75px;
+        }
+        footer{
+            font-size: 25px;
+                gap: 426px;
+        }
+      }
+      .S_Us_Content{
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        justify-content: center;
+        align-items: center;
+      }
+.LogoS{
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+    align-items: center;
+      }
+      .Support_Us{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 360px;
+        background-color: #202020;
+          }
+          .Tr_B{
+            font-size: 48px;
+            color: white;
+            font-family: Futura Md BT;
+            opacity: 50%;
+          }
+          .Tr_B_35{
+            font-size: 24px;
+            color: white;
+            font-family: Futura Md BT;
+            opacity: 50%;
+          }
+    .Logo_1{
+        height: 77px;
+        width: 246px;
+        background-image: url("../PhotosProject/Icons/airbnb.png");
+        background-repeat: no-repeat;
+      }
+      .Logo_2{
+        height: 127px;
+        width:  226px;
+        background-image: url("../PhotosProject/Icons/reemax.png");
+        background-repeat: no-repeat;
+      }
+      .Logo_3{
+        height: 80px;
+        width:  201px;
+        background-image: url("../PhotosProject/Icons/maxwell.png");
+        background-repeat: no-repeat;
+      }
+      .Logo_4{
+        height: 41px;
+        width:  404px;
+        background-image: url("../PhotosProjecT/Icons/century_21.png");
+        background-repeat: no-repeat;
+      } 
+      @media screen and (max-width: 2100px) {
+        .First_Text{
+              font-size: 50px;
+            }
+            .Ul_1{
+                height: 200px;
+            }
+            .Info_Block{
+                font-size: 40px;
+            }
+            .I_p{
+                font-size: 15px;
+            }
+            .Input{
+                font-size: 25px;
+                height: 65px;
+            }
+            footer{
+                font-size: 15px;
+                gap: 326px;
+            }
+}
+@media screen and (max-width: 1800px){
+    .LogoS{
+        gap: 0px;
+    }
+    .Ul_1{
+        gap: 35px;
+    }
+    .First_Text{
+        font-size: 40px;
+    }
+    .Second_Text{
+        font-size: 14px;
+    }
+    .I_number{
+        font-size: 27px;
+    }
+    .I_p{
+        font-size: 10px;
+    }
+    .Book_Button{
+        width: 233px;
+        height: 52px;
+        font-size: 21px;
+    }
+    .Bttn_Content{
+        font-size: 21px;
+    }
+    .Contact{
+        font-size: 10px;
+    }
+    .Terms{
+        font-size: 18px;
+    }
+    .Tr_B{
+        font-size: 27px;
+    }
+    .Tr_B_35{
+        font-size: 20px;
+    }
+    .Info{
+        flex-direction: column;
+    }
+    .First_Fotos_Block{
+        height: 2253px;
+        flex-direction: column;
+        margin: 0px;
+        width: 561px;
+    }
+    .Second_Fotos_Block{
+        height: 2253px;
+        flex-direction: column;
+        width: 561px;
+        margin: 0px;
+    }
+    .Gallery_Cont{
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .Gallery{
+        height: 2642px;
+    }
+    .Gallery_H{
+        display: none;
+    }
+    .Foto_1{
+        width: 516px;
+        height: 731px;
+        background-color: white;
+
+        }.Foto_2{
+            width: 516px;
+            height: 731px;
+        background-color: white;
+
+        }.Foto_3{
+            width: 516px;
+        height: 731px;
+        background-color: white;
+
+        }.Foto_4{
+            width: 516px;
+            height: 731px;
+        background-color: white;
+
+        }.Foto_5{
+            width: 516px;
+            height: 731px;
+        background-color: white;
+
+        }.Foto_6{
+            width: 516px;
+            height: 731px;
+            background-color: white;
+
+        }
+        .List_el{
+            font-size: 30px;
+        }
+        .List_el1{
+            font-size: 30px;
+        }
+        .Price_H{
+            font-size: 35px;
+        }
+        footer{
+            gap: 300px;
+            font-size: 12px;
+        }
+        .Logo_1{
+            transform: scale(0.7, 0.7);
+        }
+        .Logo_2{
+            transform: scale(0.7, 0.7);
+        }
+        .Logo_3{
+            transform: scale(0.7, 0.7);
+        }
+        .Logo_4{
+            transform: scale(0.7, 0.7);
+
+        }
+}   
+@media screen and (max-width: 1450px){
+    .Ul_1{
+        gap: 25px;
+    }
+    .First_Text{
+        font-size: 30px;
+    }
+    .Second_Text{
+        font-size: 10px;
+    }
+    .I_number{
+        font-size: 20px;
+    }
+    .I_p{
+        font-size: 8px;
+    }
+    .Book_Button{
+        width: 233px;
+        height: 52px;
+        font-size: 21px;
+    }
+    .Bttn_Content{
+        font-size: 21px;
+    }
+    .Contact{
+        font-size: 10px;
+    }
+    .Terms{
+        font-size: 15px;
+    }
+    .Tr_B{
+        font-size: 20px;
+    }
+    .Tr_B_35{
+        font-size: 17px;
+    }
+    .Info{
+        flex-direction: column;
+    }
+    .First_Fotos_Block{
+        height: 2253px;
+        flex-direction: column;
+        margin: 0px;
+        width: 561px;
+    }
+    .Second_Fotos_Block{
+        height: 2253px;
+        flex-direction: column;
+        width: 561px;
+        margin: 0px;
+    }
+    .Gallery_Cont{
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .Gallery{
+        height: 2642px;
+    }
+    .Gallery_H{
+        display: none;
+    }
+    .Foto_1{
+        width: 516px;
+        height: 731px;
+        background-color: white;
+
+        }.Foto_2{
+            width: 516px;
+            height: 731px;
+        background-color: white;
+
+        }.Foto_3{
+            width: 516px;
+        height: 731px;
+        background-color: white;
+
+        }.Foto_4{
+            width: 516px;
+            height: 731px;
+        background-color: white;
+
+        }.Foto_5{
+            width: 516px;
+            height: 731px;
+        background-color: white;
+
+        }.Foto_6{
+            width: 516px;
+            height: 731px;
+            background-color: white;
+
+        }
+        .List_el{
+            font-size: 30px;
+        }
+        .List_el1{
+            font-size: 30px;
+        }
+        .Price_H{
+            font-size: 30px;
+        }
+        footer{
+            gap: 100px;
+            font-size: 12px;
+        }
+        .Logo_1{
+            transform: scale(0.5, 0.5);
+        }
+        .Logo_2{
+            transform: scale(0.5, 0.5);
+        }
+        .Logo_3{
+            transform: scale(0.5, 0.5);
+        }
+        .Logo_4{
+            transform: scale(0.5, 0.5);
+        }
+}    
+ 
+
+.burger{
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 21px;
+    margin-left: -80%;
+}
+.List{
+    z-index: 52;
+    color: #F3E8DC;
+}
+.burger span{
+    height: 2px;
+    width: 100%;
+    transform: scale(1);
+    background-color: #FAF6F2;
+}
+
+.burger::before, .burger::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #FAF6F2;
+    transition: all 0.3s ease 0s;
+    margin-left: -80%;
+}
+
+.burger::before { top: 0 }
+
+.burger::after { bottom: 0 }
+
+
+/* Добавляем класс active для анимации иконки бургера */
+.burger.active span { transform: scale(0) }
+
+.burger.active::before{
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+    background-color: black;
+}
+
+.burger.active::after{
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+    background-color: black;
+}
+
+
+/* При разрешении экрана 900px и ниже, выводим на экран иконку бургера */
+.open{
+    display: flex !important;
+}
+@media (max-width: 1400px) {
+    .Price_Box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+header{
+    position:fixed;
+       width: 100%;
+      height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -753px;
+    z-index: 5;
+}
+    .Second_Text{
+        display: none;
+
+    }
+    .First_Text{
+        font-size: 20px;
+    }
+    .burger { display: flex;
+    color: black;
+    margin: 0%;
+}
+.Info{
+    gap: 50px;
+    margin-top: 30px;
+}
+.Book_Button{
+    margin: 0%;
+}
+.Contact{
+    margin: 0%;
+}
+
+.Terms{
+    margin: 0%;
+}
+.First_Text{
+    margin-top: 40px;
+}
+.First_Block{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 1500px;
+}
+.Second_Block{
+    height: 1500px;
+}
+.Logo_Image{
+    width: 100%;
+}
+    .Ul_1{
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0; bottom: 0; left: 0; right: 0;
+        z-index: 50;
+        overflow-x: hidden;
+        padding: 50px 40px;
+        background-color: #F3E8DC;
+        animation: burgerAnimation 0.4s;
+        margin-left: 0%;
+        color: black;
+        justify-content: flex-start;
+        align-items: start;
+        padding: 78px;
+        border-left: 78px solid black;
+    }
+
+    .List{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        color: black;
+        z-index: 51;
+        background-color: none;
+
+
+    }
+    .A_menu{
+        color: black;
+        z-index: 51;
+    }
+    .Ul_1_1{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-top: 20px;
+        gap: 30px;
+    }
+    .Second_Block{
+        align-items: flex-end;
+        width: 100%;
+    }
+    .Flex_Bttn{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 300px;
+    }
+    .LogoS{
+        justify-content: space-between;
+        
+    }
+    .Support_Us{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+    .Logo_1{
+        transform: scale(0.5, 0.5);
+    }
+    .Logo_2{
+        transform: scale(0.5, 0.5);
+    }
+    .Logo_3{
+        transform: scale(0.5, 0.5);
+    }
+    .Logo_4{
+        transform: scale(0.5, 0.5);
+    }
+    .URL{
+        display: block;
+    }
+    .URL_Box{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Burg_Header{
+        display: block;
+        font-family: 'Futura Md BT';
+        font-weight: 900;
+        margin-top: 50px;
+        margin-left: 17px;
+        margin-bottom: 8px;
+    }
+    .Burg_List{
+        display: block;
+        font-family: 'Futura Md BT';
+        margin-left: 17px;
+    }
+    .List_Span{
+        display: none;
+    }
+    .F_Box{
+        justify-content: center;
+    }
+    @media (max-width: 1400px) {
+        
+    }
+
+@keyframes burgerAnimation {
+    from {opacity: 0}
+    to {opacity: 1}
+}}
+@media (max-width: 1200px) {
+    footer{
+        gap: 50px;
+    }
+    .First_Fotos_Block{
+        align-items: center;
+    }
+    .Second_Fotos_Block{
+        align-items: center;
+    }
+
+    .Footer_text{
+        font-size: 10px;
+    }
+    .LogoS{
+        width: 100%;
+
+        gap: 10px;
+    }
+    .Logo_1{
+        transform: scale(0.3, 0.3);
+        margin-left: 50px;
+    }
+    .Logo_2{
+        margin: 0%;
+        transform: scale(0.3, 0.3);
+        padding: 0%;
+        margin-left: -70px;
+    }
+    .Logo_3{
+        transform: scale(0.3, 0.3);
+        margin-left: -70px;
+    }
+    .Logo_4{
+        margin-left: -120px;
+        transform: scale(0.3, 0.3);
+    }
+    header{
+        position:fixed;}
+    .Gallery_Cont{
+        height: 4800px;
+        flex-direction: column;
+    }
+    .Gallery{
+        height: 4800px;
+    }
+    .Questions_Cont{
+        width: 500px;
+        justify-content: center;
+        align-items: center;
+    }
+    .Forms{
+        width: 500px;
+        align-items: center;
+    }
+    .F_Text_Area{
+        width: 500px;
+    }
+    .Want_ask{
+        font-size: 35px;
+    }
+
+    .Button_send{
+        transform: scale(0.8, 0.8);
+    }
+}
+@media (max-width: 750px) {
+    .Container{
+        height: 725px;
+        gap: 0px;
+    }
+    .First_Text{
+        font-size: 32px;
+    }
+    .Info{
+        flex-direction: row;
+        gap: 0px;
+        justify-content: center;
+    }
+    .I_number{
+        width: 50px;
+    }
+    .I_p{
+        width: 50px;
+        font-size: 14px;
+    }
+    .F_I_Texr{
+        width: 70px;
+    }
+    .Info_Block{
+        width: 100px;
+    }
+    .Price_Box{
+        height: 725px;
+        gap: 15px;
+    }
+    .Price_list{
+        height: 725px;
+    }
+    .Price_Block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .F_2_Box{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Price_H{
+        font-size: 22px;
+    }
+    .List_el{
+        font-size: 18px;
+        
+    }
+    .List_el1{
+        font-size: 18px;
+    }
+    .Tr_B_35{
+        display: none;
+    }
+    .Tr_B{
+        font-size: 24px;
+    }
+    .Support_Us{
+        height: 127px;
+    }
+    .S_Us_Content{
+        height: 127px;
+    }
+    .LogoS{
+        height: 32px;
+        width: 100%;
+    }
+    .Logo_1{
+        transform: scale(0.25, 0.25);
+
+    }
+    .Logo_2{
+        transform: scale(0.25, 0.25);
+        margin-left: -175px;
+    }
+    .Logo_3{
+        transform: scale(0.25, 0.25);
+        margin-left: -160px;
+    }
+    .Logo_4{
+        margin-left: -230px;
+        transform: scale(0.25, 0.25);
+    }
+    .Contact{
+        display: none;
+    }
+    .URL{
+        display: 14px;
+    }
+    .First_Fotos_Block{
+        width: 100%;
+        height: 1300px;
+        padding-top: 60px;
+    }
+    .Second_Fotos_Block{
+        width: 100%;
+        height: 1300px;
+        margin-top: -10px;
+    }
+    .Foto_1{
+        width: 281px;
+        height: 365px;
+    }
+    .Foto_2{
+        width: 281px;
+        height: 365px;
+    }
+   .Foto_3{
+    width: 281px;
+        height: 365px;
+    }
+    .Foto_4{
+        width: 281px;
+        height: 365px;
+    }
+    .Foto_5{
+        width: 281px;
+        height: 365px;
+    }
+    .Foto_6{
+        width: 281px;
+        height: 365px;
+    }
+    .Gallery_Cont{
+        height: 2440px;
+        gap: 0px;
+    }
+    .Gallery{
+        height: 2440px;
+
+    }
+    footer{
+        flex-direction: column;
+        height: 150px;
+    }
+    .First_Footer_Block{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        gap: 10px;
+    }
+    .Input::placeholder{
+        font-size: 16px;
+    }
+    .F_Text_Area::placeholder{
+        font-size: 16px;
+    }
+    .Forms{
+        width: 280px;
+    }
+    .F_Text_Area{
+        width: 280px;
+    }
+    .Input{
+        width: 280px;
+    }
+.Want_ask{
+    font-size: 25px;
+}
+    .Button_send{
+        transform: scale(0.4, 0.4);
+    }
+    .Questions{
+        height: 1100px;
+    }
+}
