@@ -26,7 +26,6 @@
 
 
 
-
 body{
 width: 100%;
 overflow-x: hidden;
@@ -737,6 +736,9 @@ footer{
     .Info{
         flex-direction: column;
     }
+    .S_Us_Content{
+        width: 100%;
+    }
     .First_Fotos_Block{
         height: 2253px;
         flex-direction: column;
@@ -1185,14 +1187,13 @@ header{
     }
     .Logo_2{
         transform: scale(0.25, 0.25);
-        margin-left: -175px;
     }
     .Logo_3{
         transform: scale(0.25, 0.25);
-        margin-left: -160px;
+
     }
     .Logo_4{
-        margin-left: -230px;
+
         transform: scale(0.25, 0.25);
     }
     .Contact{
