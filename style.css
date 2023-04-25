@@ -29,6 +29,7 @@
 
 body{
 width: 100%;
+overflow-x: hidden;
 }
 header{
     margin: 0%;
@@ -214,7 +215,7 @@ font-family: Futura Md BT;
     height: 45px;
 }
 .Container{
-    width: 1150px;
+    width: 100%;
     height: 1150px;
     background-color: none;
     display: flex;
@@ -235,7 +236,7 @@ font-family: Futura Md BT;
     display: flex;
     flex-direction: column;
     gap: 110px;   
-    width: 1150px;
+    width: 100%;
     font-family: Futura Md BT;
 }
 .Price_H{
